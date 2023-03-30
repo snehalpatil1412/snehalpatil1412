@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @snehalpatil1412
-- 👀 I’m interested in web developing
-- 🌱 I’m currently learning in G.P.Pen
-- 💞️ I'm Familiar with some languages such as C,C++,Java,Html,Javascript,Bootstrap and CSS
+- 🌱 I’m currently learning 
 
 
 <!---

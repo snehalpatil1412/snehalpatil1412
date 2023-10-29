@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BMI Calculator & Diet Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BMI Calculator & Diet Planner</h1>
+    <div class="calculator">
+      <h2>Calculate Your BMI</h2>
+      <div class="input-fields">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" placeholder="Enter your weight">
+      </div>
+      <div class="input-fields">
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" placeholder="Enter your height">
+      </div>
+      <button id="calculate">Calculate BMI</button>
+      <div id="result"></div>
+    </div>
+
+    <div class="diet-plans">
+      <h2>Diet Plans</h2>
+      <div class="plan" id="underweight">
+        <h3>Underweight Diet Plan</h3>
+        <p>Eat calorie-rich, nutrient-dense foods such as nuts, seeds, and whole-fat dairy. Increase meal frequency and add healthy fats to your diet.</p>
+      </div>
+      <div class="plan" id="normalweight">
+        <h3>Normal Weight Diet Plan</h3>
+        <p>Maintain a balanced diet with a variety of fruits, vegetables, lean proteins, and whole grains. Ensure portion control and regular exercise.</p>
+      </div>
+      <div class="plan" id="overweight">
+        <h3>Overweight Diet Plan</h3>
+        <p>Focus on reducing portion sizes, increasing vegetable and fruit intake, limiting processed foods, and engaging in regular physical activity.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="toastify.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
